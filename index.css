@@ -11,7 +11,15 @@ body {
    
 }
 
-.left {
+/*small screens*/
+@media only screen and (max-width:600px) {
+
+}/*end of this query*/
+/*big screens*/
+@media only screen and (min-width:601px){
+
+    .left {
+
     font-size: 25px;
     color:rgb(146, 86, 117);
     text-decoration: none;
@@ -90,6 +98,7 @@ img {
     margin-left: auto ;
     margin-right: auto;  
     object-position: top;
+}
 }
 /*background-color: rgb(173, 114, 132);
     color:aliceblue;*/
